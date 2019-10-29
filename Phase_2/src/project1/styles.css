@@ -1,0 +1,74 @@
+
+* {
+    -fx-focus-color: transparent;
+}
+
+.selected1 {
+    -fx-border-color: #48862dff;
+    -fx-border-width: 8;
+}
+
+.selected2 {
+    -fx-border-color: #842b57ff;
+    -fx-border-width: 8;
+}
+
+.selected3 {
+    -fx-border-color: #c47016ff;
+    -fx-border-width: 8;
+}
+
+.selected4 {
+    -fx-border-color: #1b63a4ff;
+    -fx-border-width: 8;
+}
+
+.regular-submit-button {
+    -fx-background-color: #ff5555;
+}
+
+.pressed-submit-button {
+    -fx-background-color: #cc4444;
+    -fx-border-color: #333333bb;
+    -fx-border-width: 4;
+}
+
+.regular-button-1 {
+    -fx-background-color: #6aa84fff;
+    -fx-background-radius: 0;
+}
+
+.pressed-button-1 {
+    -fx-background-color: #48862dff;;
+    -fx-background-radius: 0;
+}
+
+.regular-button-2 {
+   -fx-background-color: #a64d79ff;
+   -fx-background-radius: 0;
+}
+
+.pressed-button-2 {
+   -fx-background-color: #842b57ff;
+   -fx-background-radius: 0;
+}
+
+.regular-button-3 {
+    -fx-background-color: #e69138ff;
+    -fx-background-radius: 0;
+}
+
+.pressed-button-3 {
+    -fx-background-color: #c47016ff;
+    -fx-background-radius: 0;
+}
+
+.regular-button-4 {
+    -fx-background-color: #3d85c6;
+    -fx-background-radius: 0;
+}
+
+.pressed-button-4 {
+    -fx-background-color: #1b63a4ff;
+    -fx-background-radius: 0;
+}

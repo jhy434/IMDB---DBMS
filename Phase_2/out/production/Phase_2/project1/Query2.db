@@ -1,0 +1,5 @@
+OPEN Movies;
+OPEN Credits;
+actorMovieList <- project( id ) (select(name == "Rachel_Weisz" && job == "Actor") Credits);
+bob <- Credits & actorMovieList;
+a<-project(name)(select(job == "Actor" && name != "Rachel_Weisz") bob);

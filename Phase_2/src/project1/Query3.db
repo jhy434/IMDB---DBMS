@@ -1,0 +1,5 @@
+OPEN Movies;
+OPEN Credits;
+actorMovieList <- project( id ) (select(name == "Emma_Stone") Credits);
+bob <- Movies & actorMovieList;
+a<-project(genre) bob;

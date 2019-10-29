@@ -1,0 +1,5 @@
+OPEN Movies;
+OPEN Credits;
+actorMovieList<- project( id ) (select(name == "Mel_Gibson") Credits);
+bob <- Movies & actorMovieList;
+a<-project(vote_average, id) bob;

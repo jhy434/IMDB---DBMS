@@ -1,0 +1,3 @@
+directorMovies <- project(id) (select (name == "Jean-Jacques_Annaud" && job == "Director") Credits);
+b <- Movies & directorMovies;
+c<-project(vote_average, id)b);

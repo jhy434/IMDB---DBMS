@@ -1,0 +1,3 @@
+actorMovieList <- project( id ) (select(name == "Mel_Gibson") Credits);
+bob <- Movies & actorMovieList;
+a<-project(genre) bob;

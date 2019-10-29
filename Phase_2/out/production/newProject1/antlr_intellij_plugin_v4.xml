@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="antlr-intellij-plugin-v4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/libraries/intellij-plugin-v4-1.10.zip!/antlr-intellij-plugin-v4" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,3 @@
+actorMovieList <- project( id ) (select(name == "Mel_Gibson" && job == "Actor") Credits);
+bob <- Credits & actorMovieList;
+a<-project(name)(select(job == "Actor" && name != "Mel_Gibson") bob);
